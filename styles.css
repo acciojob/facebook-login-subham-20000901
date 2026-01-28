@@ -6,7 +6,11 @@ body{
 	align-items:center;
 	height:100vh;
 }
-#left{
+.container{
+	display:flex;
+	gap:50px;
+}
+.left{
 	width:450px;
 	margin-top:70px;
 	display:inline-block;
@@ -30,11 +34,14 @@ button{
 	background-color:#1877f2;
 	border-radius:5px;
 	padding:10px 20px;
+	width:100%;
 }
 a{
 	text-decoration:none;
-	background-color:#1877f2;
+	color:#1877f2;
 }
 .signup{
 	background-color:#42b72a;
+	margin-top:15px;
+	color:white;
 }
